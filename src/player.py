@@ -3,15 +3,18 @@ import random
 
 class Player():
     '''
-    Class to create players
+    Creates a player class with different playing styles.
+    Inputs:
+    ----------
+    style: str indicating player style ('hawk', 'dove', etc)
+    
+    Returns:
+    -------
+    Instance of player class with methods for making moves.
     '''
     
     def __init__(self, style):
         self.style = style
-        
-    def playing_style(self):
-#         styles = {'dove': [, 'hawk': , 'random': }
-        pass
         
     def make_move(self, p_score):
         p_move = 'check'
