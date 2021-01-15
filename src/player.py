@@ -4,7 +4,8 @@ import random
 class Player():
     '''
     Creates a player class with different playing styles.
-    Inputs:
+    
+    Parameters:
     ----------
     style: str indicating player style ('hawk', 'dove', etc)
     
